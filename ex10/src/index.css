@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+#root {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 50px;
+}
+
+header {
+  font-size: 1.5rem;
+}
+
+#navbar {
+  border-right: black solid 2px;
+  padding: 5px;
+}
+
+#navbar ul {
+  margin-top: 32px;
+  list-style: none;
+  padding: 0;
+}
+
+#navbar li {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: black solid 1px;
+  font-size: 1.1rem;
+}
+
+#navbar li:last-child {
+  border: none;
+}
+
+#navbar li a {
+  color: gray;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+  color: darkgrey;
+}
+
+#navbar img {
+  width: 100%;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 12pt;
+  margin-bottom: 12pt;
+}
+
+code {
+  font-size: 1.1rem;
+}
+
+.display_code {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  background-color: #f1f0f0;
+  width: 100%;
+  padding: 30px;
+}
+
+#function {
+  position: relative;
+  padding-top: 100px; //(whatever distance from the top of the page you want)
+}
